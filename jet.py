@@ -1,5 +1,5 @@
 # File: jet.py
-# Description: A jet object for the 'Jet Fighter' game. Object is used both for the server and the client.
+# Description: A jet object for the 'Falcon Jet' game. Object is used both for the server and the client.
 import math
 import random
 import pygame
