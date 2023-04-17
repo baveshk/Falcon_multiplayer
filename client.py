@@ -8,7 +8,7 @@ import pygame.event
 import pygame
 import game
 from ImageLabel import ImageLabel
-from constants import SERVER_IP, SERVER_PORT, LOADING_IMG, WHITE_CONTROLS, BLACK_CONTROLS,BACKGROUND_IMG1
+from constants import SERVER_IP, SERVER_PORT, LOADING_IMG, WHITE_CONTROLS, BLACK_CONTROLS
 import chatlib
 import tkinter as tk
 from tkinter import messagebox,OptionMenu,StringVar,Button,PhotoImage
@@ -23,7 +23,6 @@ class Client:
         self.game = None
         self.server_ip = SERVER_IP
         self.server_port = SERVER_PORT
-        self.background = pygame.image.load(BACKGROUND_IMG1)
         self.screen_width = 400
         self.screen_height = 500
     def build_and_send_message(self, command: str, data: str) -> None:
