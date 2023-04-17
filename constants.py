@@ -1,5 +1,5 @@
 # File: constants.py
-# Description: Constants for the 'Jet Fighter' game.
+# Description: Constants for the 'Falcon Jet' game.
 import os
 import pygame
 import socket
