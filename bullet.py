@@ -1,5 +1,5 @@
 # File: bullet.py
-# Description: A bullet object for the 'Jet Fighter' game. Object is used both for the server and the client.
+# Description: A bullet object for the 'Falcon Jet' game. Object is used both for the server and the client.
 import pygame
 from math import sin, cos, radians
 
